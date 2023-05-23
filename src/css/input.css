@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply w-48 h-64 shadow-lg rounded-lg flex-none transform transition-all hover:-translate-y-4  
+}
+
+
+.filter-gray-200 {
+    filter: grayscale(100%) brightness(200%) sepia(100%) hue-rotate(0deg) saturate(0);
+  }
+
+  .filter-primary {
+    filter: invert(45%) sepia(100%) saturate(2000%) hue-rotate(330deg) brightness(105%) contrast(95%);
+  }
+  
